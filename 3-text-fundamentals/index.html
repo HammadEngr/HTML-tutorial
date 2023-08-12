@@ -1,0 +1,176 @@
+<!-- 
+    ===> VIDEO:2 TEXT FUNDAMENTALS
+    1. headings,
+    2. paragraphs
+    3. Explain block elements
+    4. explain that BLOCK elements should never be nested INLINE inline elements
+    5. Explain Headings sinificance and search robots.
+    6. Explain that for example h3 can not be nested in h4 as it does not make sen
+    6. explain paragraph, line breaks, PRE tag and horizontal rule
+    ...
+    3. blockquotes and short line qoutes
+    4. address block
+    5. citation
+    6. abbreviations
+    7. code tag
+ -->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Working with text</title>
+  </head>
+  <body>
+    <main>
+      <section>
+        <h1>h1: The most significant heading</h1>
+        <p>
+          This is the most significant heading in the entire page and one page
+          must have only 1 h1 heading. otherwise it is of no use
+        </p>
+        <hr />
+        <h2>h2: The second most significant heading: h2</h2>
+        <h3>h3: heading</h3>
+        <h4>h4: heading</h4>
+        <h5>h5: heading</h5>
+        <h6>h6: This significane goes on in descending order upto h6</h6>
+      </section>
+      <hr />
+      <section>
+        <div>
+          <h3>
+            The Paragrapg tag "p", no line breaks involved no matter how you
+            formate your text while writing, so there are two solutions
+          </h3>
+          <h4>Solution # 01, use break rule</h4>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. <br />
+            Quibusdam dicta ea commodi necessitatibus incidunt amet aliquam enim
+            beatae ipsum ut blanditiis quasi mollitia, <br />
+            aperiam excepturi reprehenderit ducimus reiciendis veritatis
+            temporibus.
+          </p>
+          <h4>Solution # 02, use pre tag</h4>
+          <pre>
+              My Bonnie lies over the ocean. 
+
+              My Bonnie lies over the sea. 
+              My Bonnie lies over the ocean. 
+              Oh, bring back my Bonnie to me.
+            </pre
+          >
+        </div>
+      </section>
+      <hr />
+      <section>
+        <h3>Text Formating</h3>
+        <p>
+          Text formatting: Modifying text appearance to enhance readability and
+          visual appeal using elements like font, size, color, alignment, and
+          spacing.
+        </p>
+        <p>
+          In html there are following self closing inline tags which we can use
+          to formate our text
+        </p>
+        <p>
+          <b>BOLD</b> <br />
+          <strong>STRONG</strong> <br />
+          <i>ITALIC</i><br />
+          <em>EMPHASIS</em><br />
+          <mark>MARK</mark><br />
+          <del>DELETED</del><br />
+          <ins>INSERT</ins><br />
+          H<sub>2</sub>O <br />
+          2 <sup>2</sup> = 4
+        </p>
+        <hr />
+        <h4>Qoutations <br /></h4>
+        <p>
+          In HTML we can distinguish the qoutes in 2 ways. <br />
+          1. Inline Qoutes <code>&lt;q&gt;</code> <br />
+          2. Blockquotes <code>&lt;blockquote&gt;</code>
+        </p>
+        <p>
+          The purpose of <code>&lt;q&gt;</code> tag is to visully distinguish
+          the qouted text which do not require a paragraph. example: Einstein
+          said:
+          <q>
+            <b>
+              If you can't explain it simply, you don't understand it well
+              enough,</b
+            >
+            <br />
+          </q>
+        </p>
+        <p>
+          The purpose of <code>&lt;blockquote&gt;</code> tag is to visually
+          distinguish the quotes which are long enough and are in the form of
+          paragraph
+        </p>
+        <blockquote
+          cite="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/blockquote"
+        >
+          <p>
+            In the labyrinth of the mind, thoughts intertwine like a complex web
+            of interconnected neurons. Ideas emerge and evolve, fueled by
+            curiosity and the insatiable quest for knowledge. The mind is a vast
+            library, filled with the stories of countless generations, the
+            wisdom of ancient civilizations, and the collective experiences of
+            humanity. It is a realm where the past and the future converge,
+            where memories of bygone days mingle with dreams of what is yet to
+            come. It is a landscape of contradictions, where doubt battles with
+            certainty, fear wrestles with courage, and despair dances with hope.
+            The mind is a sanctuary, a refuge from the chaos of the external
+            world, where introspection and introspection flourish. It is a place
+            of solace and introspection, where we can find solace in times of
+            turmoil and clarity in times of confusion. It is a source of
+            resilience, where the power to overcome adversity resides. It is in
+            the depths of the mind that we find the strength to endure, the
+            resilience to persevere, and the courage to face the unknown. It is
+            a testament to the indomitable spirit of humanity, a testament to
+            our capacity for growth, transformation, and self-discovery.
+          </p>
+        </blockquote>
+
+        <hr />
+
+        <h4>Address block</h4>
+        <p>
+          <code>&lt;address&gt;</code> is used to distinguish address visually
+          and it also helps spiders to crawl and search easily, for example:
+        </p>
+        <address>
+          Auther Dent <br />
+          visiter@visit.com
+        </address>
+
+        <hr />
+
+        <h4>cite tag</h4>
+        <p>
+          <code>&lt;cite&gt;</code> is used for citations or references to the
+          work of others. like if someone publish a paper and he has used some
+          data in his paper then he will use citation to refer to that
+          particular work.
+        </p>
+        <cite>Francis beacon</cite>
+
+        <hr />
+
+        <h4>Abbreviations</h4>
+        <p><code>&lt;abbr&gt;</code> tag is used to abbriviate.</p>
+        <p>
+          <abbr title="Hyper Text Markup Language">HTML</abbr> is easy to learn
+        </p>
+        <hr />
+        <h4>Subscripts and superscripts</h4>
+        <p>H <sub>2</sub>O</p>
+        <p>x <sup>2</sup></p>
+        <hr />
+        <h4>Time</h4>
+        <time datetime="2022-01-10">10 Janury 2016</time>
+      </section>
+    </main>
+  </body>
+</html>
