@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="Hammad ahmed" />
+    <meta name="description" content="This page is about anchors and links" />
+    <link rel="shortcut icon" href="../images/html.png" type="image/x-icon" />
+    <title>Links and Anchors</title>
+  </head>
+  <body link="red" alink="yellow" vlink="blue">
+    <header id="header">
+      <h1>
+        <u> Links and Anchors </u>
+      </h1>
+      <p>In HTML we have 4 tags for links</p>
+      <ol>
+        <li>
+          <code>&lt;a&gt; tag</code>
+        </li>
+        <li>
+          <code>&lt;area&gt; tag</code>
+        </li>
+        <li>
+          <code
+            >&lt;Link&gt; tag,
+            <em>This is only used in head tag of document</em>
+          </code>
+        </li>
+      </ol>
+      <p>
+        Each of these tags have an attribute called
+        <b> "Hypertext Reference"</b> which is written like <em> "href" </em>
+      </p>
+    </header>
+
+    <section>
+      <p>
+        Before proceeding towards links and anchors, you must understand URL
+        first i-e <b>Uniform Resource Locator</b> <br />
+        as the name indicates, it is a resource locator. <br />
+        Resource can be
+      </p>
+      <ul>
+        <li>another website</li>
+        <li>a file like html file</li>
+        <li>section of the same document</li>
+      </ul>
+      <p>based on type of resource, URL is classified in 3 types</p>
+      <ul>
+        <li>Absolute URL</li>
+        <li>Relative URL</li>
+        <li>Internal URL</li>
+      </ul>
+      <hr />
+      <h3>Absolute URL</h3>
+      <ul>
+        <li>
+          <a href="https://www.bloomberg.com/" target="_blank" rel="external"
+            >Bloomber</a
+          >
+        </li>
+        <li>
+          <a href="https://www.bloomberg.com/" target="_self">Bloomber</a>
+        </li>
+      </ul>
+      <hr />
+      <h3>Relative URL</h3>
+      <a href="../first-intro/index.html">About</a>
+      <hr />
+      <h3>Internal URL</h3>
+      <a href="#header">Go to top</a>
+      <h3>Email link</h3>
+      <a href="mailto:test@test.com">Email us</a>
+    </section>
+    <section>
+      <h2>Anchor States</h2>
+      <p>
+        One important property associated with anchors is
+        <b>Anchor State. </b>There are 4 anchor states
+      </p>
+      <ul>
+        <li>Normal state</li>
+        <li>Hover State</li>
+        <li>Active State</li>
+        <li>Visited State</li>
+      </ul>
+      <a href="https://www.google.com/">HELLO</a>
+    </section>
+  </body>
+</html>
