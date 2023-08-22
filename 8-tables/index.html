@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="Hammad Ahmed" />
+    <meta name="description" content="this document is about Tables in html." />
+    <title>Tables in HTML</title>
+  </head>
+  <body>
+    <h1>Tables in HTML</h1>
+    <hr />
+    <h3>Table 1, R x C = 4 x 2</h3>
+    <table border="1">
+      <tr>
+        <th>Cars</th>
+        <th>Bikes</th>
+      </tr>
+      <tr>
+        <td>Mercedes</td>
+        <td>Kawasaki</td>
+      </tr>
+      <tr>
+        <td>BMW</td>
+        <td>Harley Davidson</td>
+      </tr>
+      <tr>
+        <td>Cheverlet</td>
+        <td>Suzuki</td>
+      </tr>
+    </table>
+    <hr />
+    <h3>Table 2, (3 x 3)</h3>
+    <table width="300px" border="1">
+      <caption>
+        Total Table Items
+      </caption>
+      <thead>
+        <th></th>
+        <th>Lunch</th>
+        <th>Dinner</th>
+      </thead>
+      <tr>
+        <th>Kitchen</th>
+        <td>23</td>
+        <td>30</td>
+      </tr>
+      <tr>
+        <th>Dinning Room</th>
+        <td>31</td>
+        <td>45</td>
+      </tr>
+    </table>
+    <hr />
+    <h3>Table with rows/columns spanned</h3>
+    <table border="1" width="400px">
+      <caption>
+        The Planets
+      </caption>
+      <tr>
+        <th rowspan="2"></th>
+        <th colspan="2">Distance from sun</th>
+        <th rowspan="2">Years</th>
+      </tr>
+      <tr>
+        <td>Kilometers</td>
+        <td>Aus</td>
+      </tr>
+      <tr>
+        <th>Mercury</th>
+        <td>2</td>
+        <td>3</td>
+        <td>4</td>
+      </tr>
+      <tr>
+        <th>Venus</th>
+        <td>2</td>
+        <td>3</td>
+        <td>4</td>
+      </tr>
+      <tr>
+        <th>Earth</th>
+        <td>2</td>
+        <td>3</td>
+        <td>4</td>
+      </tr>
+      <tr>
+        <th>Jupiter</th>
+        <td>2</td>
+        <td>3</td>
+        <td>4</td>
+      </tr>
+    </table>
+    <hr />
+    <h3>Table with header, body and footer</h3>
+    <table border="1">
+      <thead>
+        <caption>
+          Table with structure
+        </caption>
+        <tr>
+          <th></th>
+          <th>Debits</th>
+          <th>Credits</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td></td>
+          <td>one</td>
+          <td>two</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>one</td>
+          <td>two</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>one</td>
+          <td>two</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <th>Total</th>
+          <th></th>
+          <th></th>
+        </tr>
+      </tfoot>
+    </table>
+    <hr />
+    <h3>Nested Table</h3>
+    <table width="300px" border="1">
+      <thead>
+        <caption>
+          Nested Table
+        </caption>
+        <tr>
+          <th>one</th>
+          <th>Tow</th>
+          <th>Three</th>
+          <th>Four</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>
+            <table style="border: 1px; border-style: dashed">
+              <tr>
+                <th>h1</th>
+                <th>h2</th>
+              </tr>
+              <tr>
+                <td>p1</td>
+                <td>p2</td>
+              </tr>
+            </table>
+          </td>
+          <td>B</td>
+          <td>C</td>
+          <td>D</td>
+        </tr>
+        <tr>
+          <td>A</td>
+          <td>B</td>
+          <td>C</td>
+          <td>D</td>
+        </tr>
+        <tr>
+          <td>A</td>
+          <td>B</td>
+          <td>C</td>
+          <td>D</td>
+        </tr>
+      </tbody>
+    </table>
+    <hr />
+  </body>
+</html>
