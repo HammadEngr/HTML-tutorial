@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="Hammad Ahmed" />
+    <meta name="description" content="This page is about Forms in HTML" />
+    <title>Forms in HTML</title>
+  </head>
+  <body>
+    <header>
+      <h1>Fill out the form</h1>
+    </header>
+    <main>
+      <form action="" method="post" width="600px">
+        <fieldset>
+          <legend>Enter Your credentials</legend>
+          <div>
+            <label for="name" style="display: inline-block; width: 200px"
+              >Your name</label
+            >
+            <input
+              id="name"
+              type="text"
+              name="name"
+              required
+              min="4"
+              max="16"
+              placeholder="your name"
+            />
+          </div>
+          <div>
+            <label for="email" style="display: inline-block; width: 200px"
+              >Your Email</label
+            >
+            <input
+              id="email"
+              type="email"
+              name="email"
+              required
+              placeholder="your email"
+            />
+          </div>
+          <div>
+            <label for="password" style="display: inline-block; width: 200px"
+              >Your Password</label
+            >
+            <input
+              id="password"
+              type="password"
+              name="password"
+              required
+              min="8"
+              max="16"
+              placeholder="********"
+            />
+          </div>
+          <div>
+            <label for="dob" style="display: inline-block; width: 200px"
+              >Enter your date of birth</label
+            >
+            <input type="date" />
+          </div>
+          <div>
+            <label for="phone" style="display: inline-block; width: 200px"
+              >Your Phone Number</label
+            >
+            <input type="tel" />
+          </div>
+          <div>
+            <label
+              for="profile-picture"
+              style="display: inline-block; width: 200px"
+              >Upload your picture</label
+            >
+            <input type="file" />
+          </div>
+          <div>
+            <label for="website" style="display: inline-block; width: 200px"
+              >Enter website URL</label
+            >
+            <input type="url" id="website" />
+          </div>
+        </fieldset>
+        <fieldset>
+          <legend>Choose Gender</legend>
+          <div>
+            <label for="gender">Male</label>
+            <input name="gender" type="radio" value="male" />
+            <label for="gender">Female</label>
+            <input name="gender" type="radio" value="female" />
+          </div>
+        </fieldset>
+        <fieldset>
+          <legend>Choose your languages</legend>
+          <div>
+            <input type="checkbox" id="HTML" value="HTML" />
+            <label for="HTML">HTML</label>
+            <input type="checkbox" id="css" value="css" />
+            <label for="css">CSS</label>
+            <input type="checkbox" id="js" value="JavaScript" />
+            <label for="js">JavaScript</label>
+          </div>
+        </fieldset>
+        <fieldset>
+          <legend>Choose your favourite city</legend>
+          <select name="cities" id="cities">
+            <option value="new yourk">New Yourk</option>
+            <option value="torronto">Torronto</option>
+            <option value="sydney">Sydney</option>
+            <option value="england">England</option>
+            <option value="munich">Munich</option>
+          </select>
+        </fieldset>
+        <fieldset>
+          <legend>Choose Countries</legend>
+          <select name="" id="">
+            <optgroup label="Asia">
+              <option value="pakistan">Pakistan</option>
+              <option value="india">India</option>
+              <option value="china">China</option>
+              <option value="iran">Iran</option>
+            </optgroup>
+            <optgroup label="europe">
+              <option value="germany">Germany</option>
+              <option value="france">France</option>
+              <option value="austria">Austria</option>
+            </optgroup>
+          </select>
+        </fieldset>
+        <fieldset>
+          <legend>Tell us about yourself</legend>
+          <textarea cols="30" rows="10"></textarea>
+        </fieldset>
+        <br />
+        <div>
+          <input type="submit" />
+          <input type="reset" />
+        </div>
+      </form>
+    </main>
+    <footer>
+      <h4>&copy; All Rights Reserved</h4>
+    </footer>
+  </body>
+</html>
